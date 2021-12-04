@@ -1,14 +1,14 @@
 click==7.1.2
-Django==2.2.13
+Django==2.2.24
 django-appconf==1.0.4
 django-auth-ldap==2.2.0
 django-cacheops==5.0.1
 django-compressor==2.4
 django-rq==2.3.2
 EasyProcess==0.3
-Pillow==7.2.0
+Pillow==8.3.2
 numpy==1.18.5
-python-ldap==3.3.1
+python-ldap==3.4.0
 pytz==2020.1
 pyhash==0.9.3
 pyunpack==0.2.1
@@ -19,7 +19,7 @@ requests==2.24.0
 rq==1.5.1
 rq-scheduler==0.10.0
 scipy==1.4.1
-sqlparse==0.3.1
+sqlparse==0.4.2
 django-sendfile==0.3.11
 dj-pagination==2.5.0
 python-logstash==0.4.6
@@ -27,10 +27,10 @@ django-revproxy==0.10.0
 rules==2.2
 GitPython==3.1.3
 coreapi==2.3.3
-django-filter==2.3.0
+django-filter==2.4.0
 Markdown==3.2.2
-djangorestframework==3.11.1
-Pygments==2.6.1
+djangorestframework==3.11.2
+Pygments==2.7.4
 drf-yasg==1.17.1
 Shapely==1.7.1
 pdf2image==1.14.0
@@ -40,7 +40,7 @@ cython==0.29.21
 matplotlib==3.0.3
 scikit-image==0.15.0
 tensorflow==2.2.0
-keras==2.4.2
+keras==2.6.0rc3
 opencv-python==4.4.0.42
 h5py==2.10.0
 imgaug==0.4.0
@@ -50,3 +50,4 @@ av==6.2.0
 # The package is used by pyunpack as a command line tool to support multiple
 # archives. Don't use as a python module because it has GPL license.
 patool==1.12
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
